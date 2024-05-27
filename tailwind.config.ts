@@ -7,7 +7,7 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: { 
+    extend: {
       container: {
         center: true,
         padding: '2rem',
@@ -44,7 +44,7 @@ const config: Config = {
     },
   },
   plugins: [
-    function ({ addUtilities }) {
+    function ({ addUtilities }: { addUtilities: Function }) {
       const newUtilities = {
         '.text-shadow': {
           textShadow: '2px 2px 4px black',
