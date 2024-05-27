@@ -15,6 +15,7 @@ import { Container10 } from "@/components/Container_10";
 import { Container11 } from "@/components/Container_11";
 import { Container12 } from "@/components/Container_12";
 import { Container13 } from "@/components/Container_13";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
     <Container11 />
     <Container12 />
     <Container13 />
+    <Footer />
     </>
   );
 }
